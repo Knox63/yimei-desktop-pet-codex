@@ -1,0 +1,987 @@
+{
+  "name": "逸美",
+  "id": "yimei",
+  "exportDate": "2026-11-06",
+  "sourceCodexVersion": "26.1029.7803.0",
+  "artworkRevision": "2026-10-26-anime6b-detail-original-poses",
+  "defaultState": "running",
+  "workingState": "running",
+  "workingCycleMs": 2520,
+  "workingReferenceOnly": true,
+  "notes": [
+    "This is an existing-artwork snapshot, not GPT Image 2.6 output.",
+    "idle preview uses the representative 5000 ms interval; desktop playback randomizes 4000–6000 ms.",
+    "look rows are pointer-controlled static directions; the standalone viewer cycles them only for inspection.",
+    "The removed jumping state is not recreated."
+  ],
+  "states": {
+    "review": {
+      "path": "assets/review-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 2500
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 100
+        }
+      ],
+      "cycleMs": 5400
+    },
+    "failed": {
+      "path": "assets/failed-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 160
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 180
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 100
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 50
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 70
+        }
+      ],
+      "cycleMs": 2060
+    },
+    "waiting": {
+      "path": "assets/waiting-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 121.33333333333334
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 51.333333333333336
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 51.333333333333336
+        }
+      ],
+      "cycleMs": 1609.9999999999993
+    },
+    "look-9": {
+      "path": "assets/look-9-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 8,
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 300
+        }
+      ],
+      "cycleMs": 2400
+    },
+    "look-10": {
+      "path": "assets/look-10-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 8,
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 300
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 300
+        }
+      ],
+      "cycleMs": 2400
+    },
+    "running-right": {
+      "path": "assets/running-right-hd-hand-fixed.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 120
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 120
+        }
+      ],
+      "cycleMs": 1920
+    },
+    "running": {
+      "path": "assets/running-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 219.33333333333331
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 79.33333333333333
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 79.33333333333333
+        }
+      ],
+      "cycleMs": 2520
+    },
+    "waving": {
+      "path": "assets/waving-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 305
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 80
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 70
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 150
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 65
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 65
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 65
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 75
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 75
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 75
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 75
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 300
+        }
+      ],
+      "cycleMs": 1960
+    },
+    "running-left": {
+      "path": "assets/running-left-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 224
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 11,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 10,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 9,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 5,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 4,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 84
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 84
+        }
+      ],
+      "cycleMs": 2660
+    },
+    "idle": {
+      "path": "assets/idle-hd-clarity.webp",
+      "cellWidth": 576,
+      "cellHeight": 624,
+      "columns": 16,
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc",
+      "frames": [
+        {
+          "columnIndex": 0,
+          "durationMs": 4850
+        },
+        {
+          "columnIndex": 1,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 2,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 3,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 6,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 7,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 8,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 12,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 13,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 14,
+          "durationMs": 15
+        },
+        {
+          "columnIndex": 15,
+          "durationMs": 15
+        }
+      ],
+      "cycleMs": 5000
+    }
+  }
+}

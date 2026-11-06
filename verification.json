@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "workingOnlyReferences": true,
+  "baselineChecks": {
+    "working-original.webp": {
+      "frames": 30,
+      "durationMs": 2520,
+      "size": [
+        576,
+        624
+      ]
+    },
+    "working-original.gif": {
+      "frames": 30,
+      "durationMs": 2520,
+      "size": [
+        576,
+        624
+      ]
+    }
+  },
+  "files": {
+    ".gitattributes": {
+      "bytes": 52,
+      "sha256": "69210067af6bc91d96d50f9198d8104b2686432bfebad89d7af4163c7b7dd043"
+    },
+    ".gitignore": {
+      "bytes": 77,
+      "sha256": "ff1546366e988c0c830195e7908e00696ebf65f79892f8f7ced7b400c2c19a46"
+    },
+    "assets/failed-hd-clarity.webp": {
+      "bytes": 5923228,
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8"
+    },
+    "assets/idle-hd-clarity.webp": {
+      "bytes": 4085126,
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc"
+    },
+    "assets/look-10-hd-clarity.webp": {
+      "bytes": 2551968,
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39"
+    },
+    "assets/look-9-hd-clarity.webp": {
+      "bytes": 2603300,
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e"
+    },
+    "assets/review-hd-clarity.webp": {
+      "bytes": 5161050,
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c"
+    },
+    "assets/running-hd-clarity.webp": {
+      "bytes": 4895328,
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385"
+    },
+    "assets/running-left-hd-clarity.webp": {
+      "bytes": 4691006,
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b"
+    },
+    "assets/running-right-hd-hand-fixed.webp": {
+      "bytes": 4857692,
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9"
+    },
+    "assets/spritesheet-dense.webp": {
+      "bytes": 6294458,
+      "sha256": "d8e7875cc72dbc430ec30698ad49a460d884820241a22ade9d187a53e1bf5ce5"
+    },
+    "assets/spritesheet.webp": {
+      "bytes": 3657808,
+      "sha256": "686f051269f080088cdac8f586855490bc5d3944bf982158202c7928ab0aa3c8"
+    },
+    "assets/waiting-hd-clarity.webp": {
+      "bytes": 4810668,
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f"
+    },
+    "assets/waving-hd-clarity.webp": {
+      "bytes": 5714410,
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61"
+    },
+    "manifest.json": {
+      "bytes": 21006,
+      "sha256": "4c7c10fc02d21121b3d95aaa58e77d705376b3447066ef9da7cdbdc70213b42a"
+    },
+    "prompts/working-gpt-image-2.6.md": {
+      "bytes": 5061,
+      "sha256": "457f0c401ecb2286c98a9be9f204eab6b8edc3fd3ac991c67642ba7ae0aa9482"
+    },
+    "README.md": {
+      "bytes": 3698,
+      "sha256": "33f51b50296be3298c92c2dd7fb91afe1e4ebb1e078a39fb45181352db885472"
+    },
+    "references/working/working-16-source-frames.png": {
+      "bytes": 2045846,
+      "sha256": "022b1b5efcf9b2f7cb087d95fb2c7866fddb0def886f36781a72b62c0744c6a3"
+    },
+    "references/working/working-motion-reference.png": {
+      "bytes": 1758492,
+      "sha256": "c6b4d069e9be48af097d177ef27c189d5bc9d2953dfc89f9462f92955a42b438"
+    },
+    "references/working/working-original.gif": {
+      "bytes": 4811237,
+      "sha256": "8264605a6adcda0f6ced8cfe4dfa8e0f1d93f2a7c30611a842e44e1cb40a3989"
+    },
+    "references/working/working-original.webp": {
+      "bytes": 8381844,
+      "sha256": "20dd466f789e6f19e0a7c25e31cd1d67141e9a66af5636dcba3bbf6b04a74a99"
+    },
+    "references/working/working-reference.png": {
+      "bytes": 445578,
+      "sha256": "07dd203b19a93ba0eebab9b40753160184dfb53d45c948dfd9a1f0a3e86e3500"
+    },
+    "src/current-player.js": {
+      "bytes": 11641,
+      "sha256": "e06e3ef845514ebb3efcff3d6ab042f11a272e939ce85a26fcadc9ce4845772b"
+    }
+  }
+}
