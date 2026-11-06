@@ -7,3 +7,13 @@ work/
 *.log
 .DS_Store
 Thumbs.db
+desktop/tools/node.exe
+desktop/versions/
+desktop/backups/
+desktop/failures/
+desktop/manual-updates/
+desktop/manual-test-*/
+desktop/current.json
+desktop/update-policy.json
+desktop/switch-policy.json
+desktop/*-test-report.json

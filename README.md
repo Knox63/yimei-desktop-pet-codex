@@ -1,6 +1,10 @@
-# 逸美桌宠 · Yimei Desktop Pet
+# 逸美桌宠 · 完整 Codex 桌宠项目
 
-当前逸美素材、高清动作图集和自定义播放逻辑的快照，供 GPT Image 2.6 working 动作重做与对比。
+**完整维护项目在 [`desktop/`](desktop/README.md)**，包含当前适配引擎、Vite/Rspack 模板、固定版本启动器、手动升级核心、Windows 升级窗口源码与现有编译产物、回归检查、全部 canonical 素材及元数据。
+
+当前基线：Codex 26.1029.7803.0 / 逸美 r9，全部 144 张高清源图保持原始字节。安装依赖、新目录恢复、构建与维护方法见 [完整项目说明](desktop/README.md)。源文件核对与发布规范化记录见 [SOURCE-SNAPSHOT.json](desktop/SOURCE-SNAPSHOT.json)。
+
+GPT Image 2.6 重绘实验已搁置，未生成或替换新动作。下面保留早期上传的独立素材快照和实验参考；当前项目使用 `desktop/` 中的完整维护代码。
 
 这是现有版本的归档，**尚未包含 GPT Image 2.6 新生成动画或补帧结果**。
 
@@ -47,7 +51,7 @@ verification.json       导出文件哈希、尺寸和预览时长核验
 
 仓库不包含 Codex 官方可执行文件、app.asar、官方前端模块、依赖安装目录、账号信息、聊天记录、本机运行路径或旧版本备份。`src/current-player.js` 依赖宿主提供素材映射，不能单独作为桌面安装器使用。
 
-## 网页生成与回传
+## 历史实验：网页生成与回传（已搁置）
 
 1. 在 ChatGPT Images 新对话里提供本仓库链接和 `prompts/working-gpt-image-2.6.md` 内容。
 2. 为可靠地传入视觉参考，同时直接附上 `working-reference.png`、`working-motion-reference.png`。如果网页不能读仓库或附件，请先说明，不要自行猜人物。

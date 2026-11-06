@@ -1,0 +1,10 @@
+{
+  "mode": "fixed",
+  "autoFollowOfficialPackage": false,
+  "backgroundPreparationEnabled": false,
+  "version": "0.0.0.0",
+  "runtime": "",
+  "automaticRestartAllowed": false,
+  "changedAt": null,
+  "reason": "Uninitialized source checkout; run manual adaptation before launch"
+}

@@ -1,0 +1,962 @@
+{
+  "petId": "yimei",
+  "kind": "dedicated-runtime-companion",
+  "revision": "2026-10-26-anime6b-detail-original-poses",
+  "hdStates": {
+    "review": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c",
+      "rows": 1,
+      "path": "review-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "failed": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8",
+      "rows": 1,
+      "path": "failed-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "waiting": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "rows": 1,
+      "path": "waiting-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "look-9": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e",
+      "rows": 1,
+      "path": "look-9-hd-clarity.webp",
+      "columns": 8,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "look-10": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39",
+      "rows": 1,
+      "path": "look-10-hd-clarity.webp",
+      "columns": 8,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "running-right": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9",
+      "rows": 1,
+      "path": "running-right-hd-hand-fixed.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "running": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385",
+      "rows": 1,
+      "path": "running-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "waving": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61",
+      "rows": 1,
+      "path": "waving-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "running-left": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b",
+      "rows": 1,
+      "path": "running-left-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    },
+    "idle": {
+      "cellHeight": 624,
+      "visualQA": "pass",
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc",
+      "rows": 1,
+      "path": "idle-hd-clarity.webp",
+      "columns": 16,
+      "density": 3,
+      "cellWidth": 576
+    }
+  },
+  "hdVisualReviewer": "/root/clarity_visual_qa",
+  "hdVisualEvidence": "work/hatch-pet/yimei/repairs/2026-09-17-clarity/qa/comparison-*.png",
+  "waveHD": {
+    "cellHeight": 312,
+    "visualQA": "pass",
+    "sha256": "d8d5851607e605f040038c6d8341c6466891b4925f28b7e3d21bd143d7363b9f",
+    "rows": 1,
+    "path": "waving-single-blink-16-hd.webp",
+    "columns": 16,
+    "density": 1.5,
+    "cellWidth": 288
+  },
+  "spritesheetPath": "spritesheet-dense.webp",
+  "columns": 16,
+  "rows": 9,
+  "cellWidth": 192,
+  "cellHeight": 208,
+  "sourceFramesPerAction": 16,
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "reserved",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "cycleMs": [
+    5000,
+    1920,
+    2660,
+    1960,
+    0,
+    2060,
+    1610,
+    2520,
+    5400
+  ],
+  "baseAtlasUnchanged": false,
+  "baseSha256": "686f051269f080088cdac8f586855490bc5d3944bf982158202c7928ab0aa3c8",
+  "sha256": "d8e7875cc72dbc430ec30698ad49a460d884820241a22ade9d187a53e1bf5ce5",
+  "visualQA": "pass",
+  "visualReviewer": "/root/dense_final_qa",
+  "visualEvidence": "work/hatch-pet/yimei/repairs/2026-09-16-inbetweens/qa/contact-1.png,contact-2.png,contact-3.png",
+  "browserQA": "Real isolated Chromium playback and recovery from parent inline-style resets tested. This does not verify the existing live Codex window.",
+  "reviewRepair": "16 chin-rest source frames, played forward and backward in 30 steps at 180ms per step; no last-to-first pose jump; other eight rows pixel-identical to dense16.",
+  "waveRepair": "Sixteen approved full-character source poses, expanded to 20 logical steps. Closed-eye smile sources 5-6 repeat at the wave apex for 420 ms, slightly faster while remaining synchronized; face artwork and the 1960 ms cycle remain unchanged.",
+  "clarityRepair": {
+    "method": "Per-frame chroma-edge cleanup plus interior-only balanced unsharp pass",
+    "displayScalePercent": 124,
+    "targetDensity": 1.5,
+    "edgeAlphaPreserved": true,
+    "directionalStatesUpsampled": [
+      "running-right",
+      "running-left"
+    ],
+    "baseRevision": "2026-09-19-wave-single-blink-16",
+    "visualQA": "pass",
+    "qa": "work/hatch-pet/yimei/repairs/2026-09-20-motion-native-frame/candidate-qa"
+  },
+  "lookRows": "Rows 9/10 are pointer-controlled static look directions. Hold Yimei still while dragging for 2000 ms to activate; movement or release cancels the look.",
+  "wavingRepair": {
+    "source": "work/hatch-pet/yimei/decoded/waving.png",
+    "sourceFamily": [
+      "raise-8-closed.png",
+      "return-8-single-blink.png"
+    ],
+    "frames": 16,
+    "logicalSteps": 20,
+    "cycleMs": 1960,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      5,
+      6,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "durationsMs": [
+      305,
+      70,
+      70,
+      70,
+      80,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      150,
+      65,
+      65,
+      65,
+      75,
+      75,
+      75,
+      75,
+      300
+    ],
+    "visualQA": "pass",
+    "visualEvidence": "work/hatch-pet/yimei/repairs/2026-09-22-waving-faster-blink/qa/waving-faster-blink-contact.png;waving-faster-blink-preview.gif",
+    "buildReport": "work/hatch-pet/yimei/repairs/2026-09-19-wave-single-blink/build-report.json",
+    "priorAssetsPreserved": "work\\hatch-pet\\yimei\\repairs\\2026-09-19-wave-single-blink\\before",
+    "expression": "closed-mouth smile throughout; one sustained closed-eye smile synchronized to the wave apex",
+    "strayLineFramesCleaned": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15
+    ],
+    "blinkCount": 1,
+    "closedEyeFrames": [
+      5,
+      6
+    ],
+    "closedEyeLogicalSteps": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "closedEyeDurationMs": 420,
+    "synchronizedWaveSourceFrames": [
+      5,
+      6
+    ],
+    "faceArtworkChanged": false,
+    "previousRevision": "2026-09-22-waving-synced-smile",
+    "openEyeFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "visualReviewer": "/root/wave_single_blink_qa",
+    "composeReport": "work/hatch-pet/yimei/repairs/2026-09-19-wave-single-blink/compose-report.json",
+    "cyanKeyPixelsRemovedPerFrame": [
+      19,
+      0,
+      3,
+      21,
+      25,
+      17,
+      16,
+      18,
+      11,
+      2,
+      15,
+      8,
+      10,
+      7,
+      37,
+      31
+    ]
+  },
+  "failedRepair": {
+    "removedBaseFrames": [
+      3,
+      4
+    ],
+    "baselineOrder": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      6,
+      5,
+      2,
+      1
+    ],
+    "baselineDurationsMs": [
+      260,
+      170,
+      180,
+      210,
+      160,
+      300,
+      160,
+      210,
+      180,
+      230
+    ],
+    "denseSkippedSourceFrames": [
+      4,
+      5,
+      6
+    ],
+    "denseOrder": [
+      0,
+      1,
+      2,
+      3,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      3,
+      2,
+      1
+    ],
+    "denseDurationsMs": [
+      160,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      100,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      180,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      100,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      70
+    ],
+    "denseLogicalSteps": 34,
+    "denseUsedSourceFrames": 13,
+    "cycleMs": 2060,
+    "assetsChanged": false,
+    "notes": "Base frames 3 and 4 remain removed. Added approved HD source poses 7 and 8 around both face-touch turns, increasing the loop to 34 logical frames without redrawing or changing facial anatomy.",
+    "visualEvidence": "work/hatch-pet/yimei/repairs/2026-09-21-failed-34-frame-smoothing/qa/failed-34-frame-contact.png;failed-34-frame-preview.gif;continuity-report.json",
+    "previousRevision": "2026-09-21-failed-continuity-remove-3-4"
+  },
+  "disabledActions": [
+    "jumping"
+  ],
+  "stateAliases": {
+    "jumping": "waving"
+  },
+  "runtimeStates": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-9",
+    "look-10"
+  ],
+  "pointerLookHoldMs": 2000,
+  "lookEdgeRepair": {
+    "state": "look-9",
+    "frames": [
+      6,
+      7
+    ],
+    "method": "Alpha-only contour sculpting on the lower-left hair silhouette",
+    "changedBoundsLocal": {
+      "6": [
+        54,
+        171,
+        64,
+        248
+      ],
+      "7": [
+        57,
+        177,
+        66,
+        247
+      ]
+    },
+    "frames0to5PixelIdentical": true,
+    "frames6to7SubjectInteriorX82PlusPixelIdentical": true,
+    "alphaAddedPixels": 0,
+    "visualQA": "pass",
+    "visualEvidence": "work/hatch-pet/yimei/repairs/2026-09-23-look-lower-left-edge/qa/before-after-cyan.png;fixed-cyan-dark-checker.png",
+    "buildReport": "work/hatch-pet/yimei/repairs/2026-09-23-look-lower-left-edge/build-report.json",
+    "previousRevision": "2026-09-22-remove-jumping-look-2s"
+  },
+  "standardEdgeRepair": {
+    "states": [
+      "waiting",
+      "review"
+    ],
+    "rows": [
+      6,
+      8
+    ],
+    "frames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "method": "Alpha-only curved trim of generated lower-left hard crop lines",
+    "changedCells": [
+      {
+        "row": 6,
+        "frame": 1
+      },
+      {
+        "row": 6,
+        "frame": 2
+      },
+      {
+        "row": 6,
+        "frame": 3
+      },
+      {
+        "row": 6,
+        "frame": 4
+      },
+      {
+        "row": 6,
+        "frame": 5
+      },
+      {
+        "row": 6,
+        "frame": 6
+      },
+      {
+        "row": 6,
+        "frame": 7
+      },
+      {
+        "row": 8,
+        "frame": 1
+      },
+      {
+        "row": 8,
+        "frame": 2
+      },
+      {
+        "row": 8,
+        "frame": 3
+      },
+      {
+        "row": 8,
+        "frame": 4
+      },
+      {
+        "row": 8,
+        "frame": 5
+      },
+      {
+        "row": 8,
+        "frame": 6
+      },
+      {
+        "row": 8,
+        "frame": 7
+      }
+    ],
+    "unchangedRowsPixelIdentical": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10
+    ],
+    "frame0PixelIdentical": true,
+    "alphaAddedPixels": 0,
+    "visibleRgbChangedPixels": 0,
+    "visualQA": "pass",
+    "visualEvidence": "work/hatch-pet/yimei/repairs/2026-09-23-waiting-review-edge-frequency/qa/row6-row8-before-after.png;row6-row8-lower-left-detail.png",
+    "buildReport": "work/hatch-pet/yimei/repairs/2026-09-23-waiting-review-edge-frequency/build-report.json",
+    "previousRevision": "2026-09-23-look-9-lower-left-edge-cleanup"
+  },
+  "idleAmbientActions": {
+    "enabled": true,
+    "delayRangeMs": [
+      12000,
+      22000
+    ],
+    "sequence": [
+      "waiting",
+      "review"
+    ],
+    "durationMs": {
+      "waiting": 1610,
+      "review": 5400
+    },
+    "onlyWhen": "idle, not hovered, not dragging, no transient task state, no pointer look",
+    "priority": "real task, transient, drag, and look states cancel the ambient action immediately"
+  },
+  "row6Row8Smoothing": {
+    "previousRevision": "2026-09-23-row6-row8-edge-ambient-rotation",
+    "states": [
+      "waiting",
+      "review"
+    ],
+    "sourceFramesPerAction": 16,
+    "baseSelection": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "waitingGesture": "one mature adult single-hand chin-touch gesture; other hand stays lowered",
+    "reviewGesture": "gradual hand raise and head tilt into chin-rest",
+    "runtimePlayback": "forward 16 frames then reverse 14 frames; review uses 100 ms transitions with 2500 ms apex hold",
+    "otherBaseRowsVisiblePixelsAndAlphaIdentical": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      10
+    ],
+    "otherDenseRowsVisiblePixelsAndAlphaIdentical": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "visualQA": "pass"
+  },
+  "workingRepair": {
+    "state": "running",
+    "row": 7,
+    "source": "imagegen crown-only retouch separately registered to original sixteen poses; exact original face, nod, hands and alpha preserved; no fixed patch",
+    "visualQA": "pass",
+    "buildReport": "historical-artifact/asset-verification.json",
+    "userSelection": {
+      "quote": "采用上一版",
+      "selectionDate": "2026-10-02",
+      "candidateSha256": "7c54ed4fa3d183a96e191e817685449afa928ebae314c4dd2ee57e27f15a7015"
+    }
+  },
+  "runningRightHandRepair": {
+    "previousRevision": "2026-09-24-working-original-motion-clear-art",
+    "source": "horizontal mirror of the approved running-left 16-frame motion",
+    "sourceSha256": "8822ef4947c693eb3f7834957f392b206f68109376c44698d76b87eb5c823418",
+    "editedSourceFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "reason": "match the natural arm length, hand proportions, and alternating gait of running-left",
+    "otherBaseRowsPixelIdentical": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "otherDenseRowsPixelIdentical": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sourceFrames": 16,
+    "playbackSteps": 30,
+    "cycleMs": 2660,
+    "visualEvidence": "historical-artifact/running-right-from-left-contact.png"
+  },
+  "idleBlinkTiming": {
+    "previousRevision": "2026-09-27-idle-single-blink-random-4-6s",
+    "cycleRangeMs": [
+      4000,
+      6000
+    ],
+    "meanCycleMs": 5000,
+    "blinksPerCycle": 1,
+    "denseFrameOrder": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14,
+      15
+    ],
+    "skippedLongClosedFrames": [
+      4,
+      5
+    ],
+    "skippedSecondBlinkFrames": [
+      9,
+      10,
+      11
+    ],
+    "blinkMotionMs": 150,
+    "artworkUnchanged": true
+  },
+  "previousRevision": "2026-10-26-local-sr2x-original-poses",
+  "runningRightMotionRepair": "Restored version B: exact saved 2026-09-26 rear-hand-fixed artwork, 16 source frames played sequentially at 120 ms per frame.",
+  "runningRightRestore": {
+    "sourceRevision": "2026-09-26-directional-rear-hand-anatomy-v2",
+    "sourceHdSha256": "c2fd4eb8165efbbd996c78183bce397b2d24f6d010e4e2d736b14ba705c233de",
+    "sourceFrames": 16,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "frameDurationMs": 120,
+    "cycleMs": 1920,
+    "otherRowsPixelIdentical": true
+  },
+  "superResolution": {
+    "method": "realesrgan-anime6b-detail-refinement-v2",
+    "factor": 2,
+    "strength": {
+      "idle": 0.85,
+      "running-right": 0.85,
+      "running-left": 0.85,
+      "waving": 0.2729335660441408,
+      "failed": 0.3947300151048786,
+      "running": 0.85,
+      "look-9": 0.2505468667151325,
+      "look-10": 0.2507474022779231
+    },
+    "sourceRevision": "2026-10-02-original-working-crown-only",
+    "sourceStates": {
+      "review": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "389e6d2050ae492c07aa5aba25ec218a17d19f3b8077be93c25908437472ca98",
+        "rows": 1,
+        "path": "review-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "failed": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "53879b6c6ab3af4a7b8ae5f4918e019c2a97345a1a8d0e32a23d9f786e9e0f62",
+        "rows": 1,
+        "path": "failed-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "waiting": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "258c9d1607240d3d1f47db76d9d175b0a7a3e466267fb23cfce18733dbac4bf0",
+        "rows": 1,
+        "path": "waiting-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "look-9": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "506d28c662f6260d501af605806162c92c96b430bd3f2a361df9ceee16287a77",
+        "rows": 1,
+        "path": "look-9-hd-clarity.webp",
+        "columns": 8,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "look-10": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "2d5ead4b6efc5052cd8d032c8602d7b2b27ff0836e6d1634bdaf23bed67a6b8e",
+        "rows": 1,
+        "path": "look-10-hd-clarity.webp",
+        "columns": 8,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "running-right": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "c2fd4eb8165efbbd996c78183bce397b2d24f6d010e4e2d736b14ba705c233de",
+        "rows": 1,
+        "path": "running-right-hd-hand-fixed.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "running": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "7c54ed4fa3d183a96e191e817685449afa928ebae314c4dd2ee57e27f15a7015",
+        "rows": 1,
+        "path": "running-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "waving": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "06d0c06991474b461a25b72ca0483adf742a7ed9ce82171c34f7222df2fdbd10",
+        "rows": 1,
+        "path": "waving-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "running-left": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "8822ef4947c693eb3f7834957f392b206f68109376c44698d76b87eb5c823418",
+        "rows": 1,
+        "path": "running-left-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      },
+      "idle": {
+        "cellHeight": 312,
+        "visualQA": "pass",
+        "sha256": "93b62a4a8cf41f37349966495a8d41fc88f4808768a6c1d13436225ba0dd994a",
+        "rows": 1,
+        "path": "idle-hd-clarity.webp",
+        "columns": 16,
+        "density": 1.5,
+        "cellWidth": 288
+      }
+    },
+    "report": "super-resolution-report.json",
+    "poseOrderUnchanged": true,
+    "alphaPolicy": "Original alpha resized2x with Lanczos; model alpha never used",
+    "referenceState": "review",
+    "fallbackAtlasesUnchanged": true,
+    "detailRefinement": {
+      "method": "realesrgan-anime6b-detail-refinement-v2",
+      "referenceStatesUnchanged": {
+        "waiting": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+        "review": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c"
+      },
+      "previousManifestSha256": "10b289747102a2bfd207badbc21215960f872c7cd8b42da9b0886a6db8b20997",
+      "profiles": {
+        "idle": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.85,
+          "targetScale": 2,
+          "calibrationAttempts": 1,
+          "fixedAcrossAllFrames": true
+        },
+        "running-right": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.85,
+          "targetScale": 2,
+          "calibrationAttempts": 1,
+          "fixedAcrossAllFrames": true
+        },
+        "running-left": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.85,
+          "targetScale": 2,
+          "calibrationAttempts": 1,
+          "fixedAcrossAllFrames": true
+        },
+        "waving": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.2729335660441408,
+          "targetScale": 2,
+          "calibrationAttempts": 6,
+          "fixedAcrossAllFrames": true
+        },
+        "failed": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.3947300151048786,
+          "targetScale": 2,
+          "calibrationAttempts": 4,
+          "fixedAcrossAllFrames": true
+        },
+        "running": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.85,
+          "targetScale": 2,
+          "calibrationAttempts": 1,
+          "fixedAcrossAllFrames": true
+        },
+        "look-9": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.2505468667151325,
+          "targetScale": 2,
+          "calibrationAttempts": 6,
+          "fixedAcrossAllFrames": true
+        },
+        "look-10": {
+          "model": "realesrgan-x4plus-anime",
+          "modelNativeScale": 4,
+          "strength": 0.2507474022779231,
+          "targetScale": 2,
+          "calibrationAttempts": 6,
+          "fixedAcrossAllFrames": true
+        }
+      },
+      "optimizedFrames": 112,
+      "inference": {
+        "illustration": {
+          "command": [
+            "historical-artifact/realesrgan-ncnn-vulkan.exe",
+            "-i",
+            "historical-artifact/input",
+            "-o",
+            "historical-artifact/illustration",
+            "-m",
+            "historical-artifact/models",
+            "-n",
+            "realesrgan-x4plus-anime",
+            "-s",
+            "4",
+            "-t",
+            "512",
+            "-j",
+            "1:1:2",
+            "-f",
+            "png"
+          ],
+          "seconds": 13.27146250000078,
+          "modelSha256": "fe01c269cfd10cdef8e018ab66ebe750cf79c7af4d1f9c16c737e1295229bacc"
+        }
+      },
+      "notRepeatedUpscaling": true,
+      "sourceWasOriginal288px": true
+    }
+  }
+}

@@ -25,8 +25,12 @@
       "sha256": "69210067af6bc91d96d50f9198d8104b2686432bfebad89d7af4163c7b7dd043"
     },
     ".gitignore": {
-      "bytes": 77,
-      "sha256": "ff1546366e988c0c830195e7908e00696ebf65f79892f8f7ced7b400c2c19a46"
+      "bytes": 302,
+      "sha256": "2f441c8068ee813c281929735272a0ebd39d4eff7450e5f2b68366fb2791c90f"
+    },
+    "README.md": {
+      "bytes": 4354,
+      "sha256": "ce65c1cdf0313e40291acedc72bc3de72dc9881c15ea26064590861874e95e61"
     },
     "assets/failed-hd-clarity.webp": {
       "bytes": 5923228,
@@ -76,6 +80,226 @@
       "bytes": 5714410,
       "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61"
     },
+    "desktop/ARCHIVE-VERIFICATION.json": {
+      "bytes": 1098,
+      "sha256": "43ccc8b268a2016506acb0dea8961b88a70f8040bee283bd2c7e794c4ec9d6d4"
+    },
+    "desktop/Apply-Authorized-Switch.ps1": {
+      "bytes": 2316,
+      "sha256": "fd84165265fdac130da69f9ce9a91ce873648f47cbd9910bee34d240bf494f65"
+    },
+    "desktop/Build-Manual-Upgrader.ps1": {
+      "bytes": 783,
+      "sha256": "bf9d2e9c44041aa032c61a26b295652d08ebf72d6810c3682e02e7feb8ca5298"
+    },
+    "desktop/Install-Shortcut.ps1": {
+      "bytes": 2845,
+      "sha256": "f755846d03a872574ea74844934a95f489674f9a1370e9fbe812e355bf49b880"
+    },
+    "desktop/Launch-Codex-Yimei.ps1": {
+      "bytes": 1266,
+      "sha256": "7bb1a9b43008d55618aba98d55763e10b13763f1659d47fb441bc9a5bec2200f"
+    },
+    "desktop/Manual-Upgrade-Worker.ps1": {
+      "bytes": 455,
+      "sha256": "df829ed75944598a40a74eeaaccc315b6d84bd96a1ffeef1f056505493c8c6e8"
+    },
+    "desktop/Prepare-Background.ps1": {
+      "bytes": 1601,
+      "sha256": "f4e24670b78d3a79a789705d2587fa06ebce06c53ccd41633dc88327fd104226"
+    },
+    "desktop/README.md": {
+      "bytes": 4947,
+      "sha256": "8e7504884c7480376d998744bef967cfdb7810e88baf569238b91c35b0efc206"
+    },
+    "desktop/SOURCE-SNAPSHOT.json": {
+      "bytes": 13768,
+      "sha256": "b7d1ca121e1d72bff6f55a8a16eb3c7dcbf5aeffb015bf877c6fb2396aa22538"
+    },
+    "desktop/Test-Fast-Startup.ps1": {
+      "bytes": 3537,
+      "sha256": "7f1680bc6acef186ac7f3af4d1d7631465a3a36ea3130af464b9642e435c3452"
+    },
+    "desktop/Test-Fixed-Version.ps1": {
+      "bytes": 3689,
+      "sha256": "0774594ee78aee82995814b7befcbaf03386f5a552437d6d5f05962ac4914165"
+    },
+    "desktop/Test-Manual-Upgrader.ps1": {
+      "bytes": 10798,
+      "sha256": "2ea177e1804c0d159cd65cb7aee729b40ebb929428840e7e8ddebcda71b7db24"
+    },
+    "desktop/Test-Official-Protection.ps1": {
+      "bytes": 1629,
+      "sha256": "7163b9b3a9eacfd90b299034c91d5ac6a290a34f2b44adb65bd3dac0ce96f2aa"
+    },
+    "desktop/Yimei-Manual-Upgrade.exe": {
+      "bytes": 119296,
+      "sha256": "c5d878f478df9429a83ffa3282adc0aa99f2d602f0bbc3d3fe8a5a678a00d138"
+    },
+    "desktop/artwork/animation-dense.json": {
+      "bytes": 23875,
+      "sha256": "f17b5f763bf1a0e72edf43622f673a68848a25e33fa0fe1d6805af2881e7e129"
+    },
+    "desktop/artwork/failed-hd-clarity.webp": {
+      "bytes": 5923228,
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8"
+    },
+    "desktop/artwork/idle-hd-clarity.webp": {
+      "bytes": 4085126,
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc"
+    },
+    "desktop/artwork/look-10-hd-clarity.webp": {
+      "bytes": 2551968,
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39"
+    },
+    "desktop/artwork/look-9-hd-clarity.webp": {
+      "bytes": 2603300,
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e"
+    },
+    "desktop/artwork/pet.json": {
+      "bytes": 231,
+      "sha256": "e943d3b986f92be27ab202a9e2c7bd41c8cb3f830fceef8880f354874176c417"
+    },
+    "desktop/artwork/review-hd-clarity.webp": {
+      "bytes": 5161050,
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c"
+    },
+    "desktop/artwork/running-hd-clarity.webp": {
+      "bytes": 4895328,
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385"
+    },
+    "desktop/artwork/running-left-hd-clarity.webp": {
+      "bytes": 4691006,
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b"
+    },
+    "desktop/artwork/running-right-hd-hand-fixed.webp": {
+      "bytes": 4857692,
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9"
+    },
+    "desktop/artwork/spritesheet-dense.webp": {
+      "bytes": 6294458,
+      "sha256": "d8e7875cc72dbc430ec30698ad49a460d884820241a22ade9d187a53e1bf5ce5"
+    },
+    "desktop/artwork/spritesheet.webp": {
+      "bytes": 3657808,
+      "sha256": "686f051269f080088cdac8f586855490bc5d3944bf982158202c7928ab0aa3c8"
+    },
+    "desktop/artwork/super-resolution-report.json": {
+      "bytes": 11194,
+      "sha256": "d88c1c561e140f24ec714666ce650fe83523542a6be8878f85537368f75a4c78"
+    },
+    "desktop/artwork/waiting-hd-clarity.webp": {
+      "bytes": 4810668,
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f"
+    },
+    "desktop/artwork/waving-hd-clarity.webp": {
+      "bytes": 5714410,
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61"
+    },
+    "desktop/config-examples/current.example.json": {
+      "bytes": 111,
+      "sha256": "2437bfde8889337f51f6f277eb306c62c7edaa9e413810e3aa209402cca550b5"
+    },
+    "desktop/config-examples/switch-policy.example.json": {
+      "bytes": 134,
+      "sha256": "195b2d1287cf8163c8feb151264d9b926ac37c65fce186ac417073318999e57a"
+    },
+    "desktop/config-examples/update-policy.example.json": {
+      "bytes": 281,
+      "sha256": "39da7eefe5be0838866ceb785d7102970e0137182d3a3f959fca28c3a696376d"
+    },
+    "desktop/docs/MAINTENANCE-HISTORY.md": {
+      "bytes": 17071,
+      "sha256": "0c9080180e0b529626d6d55e2798a591ca26805a4a235370b1c6b951ff20fd82"
+    },
+    "desktop/engine.mjs": {
+      "bytes": 19032,
+      "sha256": "c94ba0e4ce3b67958c28adf22ff3d60b1b947c596366915d7dbdcf319df9719a"
+    },
+    "desktop/icon.ico": {
+      "bytes": 107770,
+      "sha256": "56b60f54c33d204eb6c0bfea1283fc3e82c0d3966d428fe98176a2335d2fe57c"
+    },
+    "desktop/launcher-core.ps1": {
+      "bytes": 13449,
+      "sha256": "dac80fdfbde1627d295e1ea2e680115abcaf38f35e81b5cdf9e4dff59140bbe0"
+    },
+    "desktop/manual-upgrade-core.ps1": {
+      "bytes": 13849,
+      "sha256": "b1d399b7383697118a4412f165b0d82aa842123476ed4d0ff220318dd5a68ada"
+    },
+    "desktop/manual-upgrader/Program.cs": {
+      "bytes": 8058,
+      "sha256": "98f09dda5420ac8d015bcb0742f6ba7bb89a68fc32cd7739c877384039addf6e"
+    },
+    "desktop/rspack-adapter.mjs": {
+      "bytes": 14354,
+      "sha256": "fe9d67bed63c6c176398e37469b9b5e2458d69beac2399bb4f0d0d99d64b4833"
+    },
+    "desktop/super-resolution/Publish-20261026-SR.ps1": {
+      "bytes": 7210,
+      "sha256": "454f2aa375461aee964850110bbe32b43ffcdab22c740a6efdb8213cc1d755f2"
+    },
+    "desktop/super-resolution/make-preview.py": {
+      "bytes": 1649,
+      "sha256": "4a0a6640fc022db538029ca49a59fca7e176d60d6795e948aa050e6f697d2d54"
+    },
+    "desktop/super-resolution/refine-details.py": {
+      "bytes": 12958,
+      "sha256": "d2bcfbab742ca2e1d8faeddb9f385299408eb0354c0e4e167fd10063eec46c2d"
+    },
+    "desktop/super-resolution/upscale-yimei.py": {
+      "bytes": 11799,
+      "sha256": "bff3aa4640146302cf1ca9725c279751ec864d5bf26b88f5b98447bac51f9bf5"
+    },
+    "desktop/super-resolution/verify-runtime-fidelity.mjs": {
+      "bytes": 4309,
+      "sha256": "ed6d116e5cfa5d7c78b0c4bb4112760e5643db560fc7c5c9cd4e9abecc368964"
+    },
+    "desktop/templates/Launch-Codex-Yimei16.ps1": {
+      "bytes": 2697,
+      "sha256": "eb8f3f588655fe80dfcb660802dfaaa0ae6a321aa552d6ac6d713dc6a930d8f6"
+    },
+    "desktop/templates/patch-new-codex.mjs": {
+      "bytes": 15540,
+      "sha256": "60674294517168348298f57d35fc763b6b597e704e34302ab142e4f820d19ab0"
+    },
+    "desktop/templates/rspack-renderer.js": {
+      "bytes": 2107,
+      "sha256": "b16b652b2ada0716add08fd1676910caa2fc14c7fd4854623664599aa7705924"
+    },
+    "desktop/templates/test-new-behavior.mjs": {
+      "bytes": 6848,
+      "sha256": "b0c3fc3a9d79fd7640bb0ec8d129aa4adc2451352e199c6973611b3098e6a4d7"
+    },
+    "desktop/templates/test-new-renderer.mjs": {
+      "bytes": 15613,
+      "sha256": "c4f8aff14ec0554b17b5fff922cfa94820f9b825639b81f3342832068907c685"
+    },
+    "desktop/templates/yimei-dense-player.js": {
+      "bytes": 11482,
+      "sha256": "bf962d942a2b82fb055615dcdb01d919feb83c006773dc1963e606b33fdd2b32"
+    },
+    "desktop/test-auto-launcher.ps1": {
+      "bytes": 597,
+      "sha256": "b1d688f5ed82321d2893e77fc557c0d2c651176fd4d9842730dc581c3f643fdb"
+    },
+    "desktop/test-look-regression.mjs": {
+      "bytes": 10338,
+      "sha256": "13aa8de424c83e70e7f8909681236b59f662573416830d9fcadc251bdf6e7363"
+    },
+    "desktop/test-rspack-modules.mjs": {
+      "bytes": 3156,
+      "sha256": "b542f8c2dfd9630e7902f371f12cb7bed99d788e54f1a7b5cc5a4315c05f43a2"
+    },
+    "desktop/test-working-regression.mjs": {
+      "bytes": 3760,
+      "sha256": "c43c09396a13e08bcfaf5a3706d27d7768d6975dc174645f81ad5aacea373009"
+    },
+    "desktop/tools/package.json": {
+      "bytes": 178,
+      "sha256": "43680fcfcd72110a9c507deed1177c06975b23817b3019a8681b02da8ce8997d"
+    },
     "manifest.json": {
       "bytes": 21006,
       "sha256": "4c7c10fc02d21121b3d95aaa58e77d705376b3447066ef9da7cdbdc70213b42a"
@@ -83,10 +307,6 @@
     "prompts/working-gpt-image-2.6.md": {
       "bytes": 5061,
       "sha256": "457f0c401ecb2286c98a9be9f204eab6b8edc3fd3ac991c67642ba7ae0aa9482"
-    },
-    "README.md": {
-      "bytes": 3698,
-      "sha256": "33f51b50296be3298c92c2dd7fb91afe1e4ebb1e078a39fb45181352db885472"
     },
     "references/working/working-16-source-frames.png": {
       "bytes": 2045846,
@@ -112,5 +332,6 @@
       "bytes": 11641,
       "sha256": "e06e3ef845514ebb3efcff3d6ab042f11a272e939ce85a26fcadc9ce4845772b"
     }
-  }
+  },
+  "scope": "Full maintained desktop pet project and original standalone artwork snapshot"
 }

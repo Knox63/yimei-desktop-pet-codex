@@ -1,0 +1,9 @@
+{
+  "name": "yimei-desktop-pet-tools",
+  "private": true,
+  "engines": {"node": ">=22.12.0"},
+  "dependencies": {
+    "@electron/asar": "4.3.0",
+    "playwright": "1.62.1"
+  }
+}

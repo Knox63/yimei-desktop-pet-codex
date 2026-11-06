@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "sourceVersion": "26.1029.7803.0",
+  "snapshotFiles": 48,
+  "webpFilesByteIdentical": 12,
+  "javaScriptSyntaxFiles": 11,
+  "powerShellSyntaxFiles": 15,
+  "manualCoordinator": {
+    "ok": true,
+    "cacheHit": true,
+    "newVersionBuildAndPublish": true,
+    "failurePreservesOld": true,
+    "invalidCandidateRejected": true,
+    "atomicPolicyFailureRollback": true,
+    "configurationConflictPreserved": true,
+    "changingOfficialSourceRejected": true,
+    "invalidCacheNotOverwritten": true,
+    "downgradeBlocked": true,
+    "duplicateClickLock": true,
+    "temporaryStagesCleaned": true,
+    "autoFollowRemainsDisabled": true,
+    "realCodexStarted": false,
+    "realCodexStopped": false,
+    "test": "Actual manual coordinator, atomic file publication and cross-process mutex; package/builder/integrity boundaries mocked"
+  },
+  "currentOfficialStructurePrepare": "passed",
+  "generatedPatchPreflight": "All structural patch anchors passed",
+  "freshFullRuntimeBuildPerformed": false,
+  "realCodexStarted": false,
+  "realCodexStopped": false
+}

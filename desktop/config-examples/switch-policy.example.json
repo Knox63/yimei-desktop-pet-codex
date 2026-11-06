@@ -1,0 +1,5 @@
+{
+  "allowAutomaticClosing": false,
+  "automaticRestartAllowed": false,
+  "reason": "Do not close or restart another Codex process"
+}

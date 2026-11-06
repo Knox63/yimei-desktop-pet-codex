@@ -1,0 +1,362 @@
+{
+  "ok": true,
+  "visualQA": "pass",
+  "method": "realesrgan-anime6b-detail-refinement-v2",
+  "strength": {
+    "idle": 0.85,
+    "running-right": 0.85,
+    "running-left": 0.85,
+    "waving": 0.2729335660441408,
+    "failed": 0.3947300151048786,
+    "running": 0.85,
+    "look-9": 0.2505468667151325,
+    "look-10": 0.2507474022779231
+  },
+  "states": {
+    "review": {
+      "ok": true,
+      "sourceSha256": "389e6d2050ae492c07aa5aba25ec218a17d19f3b8077be93c25908437472ca98",
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 2.852593421936035,
+      "maxTemporalResidualMAE": 2.0035834312438965,
+      "losslessRoundtrip": true
+    },
+    "failed": {
+      "ok": true,
+      "sourceSha256": "53879b6c6ab3af4a7b8ae5f4918e019c2a97345a1a8d0e32a23d9f786e9e0f62",
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 6.230717658996582,
+      "maxTemporalResidualMAE": 4.894816875457764,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    },
+    "waiting": {
+      "ok": true,
+      "sourceSha256": "258c9d1607240d3d1f47db76d9d175b0a7a3e466267fb23cfce18733dbac4bf0",
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 2.75541090965271,
+      "maxTemporalResidualMAE": 1.8235992193222046,
+      "losslessRoundtrip": true
+    },
+    "look-9": {
+      "ok": true,
+      "sourceSha256": "506d28c662f6260d501af605806162c92c96b430bd3f2a361df9ceee16287a77",
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 8,
+      "sourceUniqueFrames": 8,
+      "outputUniqueFrames": 8,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 7.793875694274902,
+      "maxTemporalResidualMAE": 5.301122665405273,
+      "losslessRoundtrip": true,
+      "temporalCheck": "not-applicable-static-look-directions"
+    },
+    "look-10": {
+      "ok": true,
+      "sourceSha256": "2d5ead4b6efc5052cd8d032c8602d7b2b27ff0836e6d1634bdaf23bed67a6b8e",
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 8,
+      "sourceUniqueFrames": 8,
+      "outputUniqueFrames": 8,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 7.786259651184082,
+      "maxTemporalResidualMAE": 5.003138542175293,
+      "losslessRoundtrip": true,
+      "temporalCheck": "not-applicable-static-look-directions"
+    },
+    "running-right": {
+      "ok": true,
+      "sourceSha256": "c2fd4eb8165efbbd996c78183bce397b2d24f6d010e4e2d736b14ba705c233de",
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 7.133107662200928,
+      "maxTemporalResidualMAE": 4.79367733001709,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    },
+    "running": {
+      "ok": true,
+      "sourceSha256": "7c54ed4fa3d183a96e191e817685449afa928ebae314c4dd2ee57e27f15a7015",
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 6.080890655517578,
+      "maxTemporalResidualMAE": 4.528857231140137,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    },
+    "waving": {
+      "ok": true,
+      "sourceSha256": "06d0c06991474b461a25b72ca0483adf742a7ed9ce82171c34f7222df2fdbd10",
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 6.763180255889893,
+      "maxTemporalResidualMAE": 4.969239711761475,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    },
+    "running-left": {
+      "ok": true,
+      "sourceSha256": "8822ef4947c693eb3f7834957f392b206f68109376c44698d76b87eb5c823418",
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 6.262248516082764,
+      "maxTemporalResidualMAE": 4.586267471313477,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    },
+    "idle": {
+      "ok": true,
+      "sourceSha256": "93b62a4a8cf41f37349966495a8d41fc88f4808768a6c1d13436225ba0dd994a",
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc",
+      "sourceCell": [
+        288,
+        312
+      ],
+      "targetCell": [
+        576,
+        624
+      ],
+      "columns": 16,
+      "sourceUniqueFrames": 16,
+      "outputUniqueFrames": 16,
+      "alphaResampleExact": true,
+      "maxOpaqueDownsampleMAE": 6.737807273864746,
+      "maxTemporalResidualMAE": 4.362016201019287,
+      "losslessRoundtrip": true,
+      "temporalCheck": "animated-sequence-original-residual"
+    }
+  },
+  "frames": 144,
+  "sourceManifestSha256": "bc3cbf09434b46b876f06f4a2889cc15de3c2fd3253d5560ceab8a6cfc737535",
+  "inference": {
+    "ok": true,
+    "count": 144,
+    "seconds": 3.2229045999993104,
+    "command": [
+      "historical-artifact/realesrgan-ncnn-vulkan.exe",
+      "-i",
+      "historical-artifact/input",
+      "-o",
+      "historical-artifact/inferred",
+      "-m",
+      "historical-artifact/models",
+      "-n",
+      "realesr-animevideov3",
+      "-s",
+      "2",
+      "-t",
+      "512",
+      "-j",
+      "1:1:2",
+      "-f",
+      "png"
+    ],
+    "exeSha256": "07e49f7cbb4ede01ae4dd4c399d3a7e5846e3d2085c3128eff881e55cb7b1a0c",
+    "modelSha256": "548a36f9c3f4ab8da56cd3b13badf23968bee207b396dad14d04b830e5f2ab2d",
+    "paramSha256": "b88ff4f00ebf019a7fdac17fdd45a7fd3665d37509efc5baf2e4da2e24420a04",
+    "sourceURL": "historical-artifact/v0.2.5.0"
+  },
+  "baseAndDenseFallbackUnchanged": true,
+  "allOriginalPlaybackMetadataPreserved": true,
+  "noGeneratedPoses": true,
+  "userAuthorization": "2026-10-26: local per-frame super-resolution, not redrawing",
+  "visualEvidence": "historical-artifact/detail-before-after.png",
+  "detailRefinement": {
+    "method": "realesrgan-anime6b-detail-refinement-v2",
+    "referenceStatesUnchanged": {
+      "waiting": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "review": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c"
+    },
+    "previousManifestSha256": "10b289747102a2bfd207badbc21215960f872c7cd8b42da9b0886a6db8b20997",
+    "profiles": {
+      "idle": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.85,
+        "targetScale": 2,
+        "calibrationAttempts": 1,
+        "fixedAcrossAllFrames": true
+      },
+      "running-right": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.85,
+        "targetScale": 2,
+        "calibrationAttempts": 1,
+        "fixedAcrossAllFrames": true
+      },
+      "running-left": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.85,
+        "targetScale": 2,
+        "calibrationAttempts": 1,
+        "fixedAcrossAllFrames": true
+      },
+      "waving": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.2729335660441408,
+        "targetScale": 2,
+        "calibrationAttempts": 6,
+        "fixedAcrossAllFrames": true
+      },
+      "failed": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.3947300151048786,
+        "targetScale": 2,
+        "calibrationAttempts": 4,
+        "fixedAcrossAllFrames": true
+      },
+      "running": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.85,
+        "targetScale": 2,
+        "calibrationAttempts": 1,
+        "fixedAcrossAllFrames": true
+      },
+      "look-9": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.2505468667151325,
+        "targetScale": 2,
+        "calibrationAttempts": 6,
+        "fixedAcrossAllFrames": true
+      },
+      "look-10": {
+        "model": "realesrgan-x4plus-anime",
+        "modelNativeScale": 4,
+        "strength": 0.2507474022779231,
+        "targetScale": 2,
+        "calibrationAttempts": 6,
+        "fixedAcrossAllFrames": true
+      }
+    },
+    "optimizedFrames": 112,
+    "inference": {
+      "illustration": {
+        "command": [
+          "historical-artifact/realesrgan-ncnn-vulkan.exe",
+          "-i",
+          "historical-artifact/input",
+          "-o",
+          "historical-artifact/illustration",
+          "-m",
+          "historical-artifact/models",
+          "-n",
+          "realesrgan-x4plus-anime",
+          "-s",
+          "4",
+          "-t",
+          "512",
+          "-j",
+          "1:1:2",
+          "-f",
+          "png"
+        ],
+        "seconds": 13.27146250000078,
+        "modelSha256": "fe01c269cfd10cdef8e018ab66ebe750cf79c7af4d1f9c16c737e1295229bacc"
+      }
+    },
+    "notRepeatedUpscaling": true,
+    "sourceWasOriginal288px": true
+  }
+}

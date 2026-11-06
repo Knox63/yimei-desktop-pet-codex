@@ -1,0 +1,308 @@
+{
+  "snapshotDate": "2026-11-06",
+  "sourceVersion": "26.1029.7803.0",
+  "engineRevision": 9,
+  "scope": "Current desktop pet manager, source, templates, tests, GUI and canonical artwork",
+  "normalization": [
+    "Source text normalized to UTF-8/LF; PowerShell files retain UTF-8 BOM for Windows PowerShell 5.1.",
+    "Historical developer dependency paths replaced consistently in templates and matching engine anchors.",
+    "Absolute paths in artwork provenance JSON replaced with historical-artifact/<filename>; runtime image bytes are unchanged.",
+    "Historical SR publication helper resolves the current user Desktop instead of a developer-specific absolute path."
+  ],
+  "excluded": [
+    "Official Codex application binaries and app.asar",
+    "Installed dependency trees and external model weights",
+    "Machine-specific current/update/switch policies",
+    "Runtime versions, backups, logs and historical run directories"
+  ],
+  "files": [
+    {
+      "path": "Apply-Authorized-Switch.ps1",
+      "sourceSha256": "fd84165265fdac130da69f9ce9a91ce873648f47cbd9910bee34d240bf494f65",
+      "sha256": "fd84165265fdac130da69f9ce9a91ce873648f47cbd9910bee34d240bf494f65",
+      "byteIdentical": true
+    },
+    {
+      "path": "Build-Manual-Upgrader.ps1",
+      "sourceSha256": "ef92e51d7e708185b82874d11552fd978c96aca956cf04162d4cdccdcc4a6054",
+      "sha256": "bf9d2e9c44041aa032c61a26b295652d08ebf72d6810c3682e02e7feb8ca5298",
+      "byteIdentical": false
+    },
+    {
+      "path": "engine.mjs",
+      "sourceSha256": "0866c1524f5c5170aa5327aff59756f92e2d658639778357877eeb5d2510e5e7",
+      "sha256": "c94ba0e4ce3b67958c28adf22ff3d60b1b947c596366915d7dbdcf319df9719a",
+      "byteIdentical": false
+    },
+    {
+      "path": "icon.ico",
+      "sourceSha256": "56b60f54c33d204eb6c0bfea1283fc3e82c0d3966d428fe98176a2335d2fe57c",
+      "sha256": "56b60f54c33d204eb6c0bfea1283fc3e82c0d3966d428fe98176a2335d2fe57c",
+      "byteIdentical": true
+    },
+    {
+      "path": "Install-Shortcut.ps1",
+      "sourceSha256": "f755846d03a872574ea74844934a95f489674f9a1370e9fbe812e355bf49b880",
+      "sha256": "f755846d03a872574ea74844934a95f489674f9a1370e9fbe812e355bf49b880",
+      "byteIdentical": true
+    },
+    {
+      "path": "Launch-Codex-Yimei.ps1",
+      "sourceSha256": "7bb1a9b43008d55618aba98d55763e10b13763f1659d47fb441bc9a5bec2200f",
+      "sha256": "7bb1a9b43008d55618aba98d55763e10b13763f1659d47fb441bc9a5bec2200f",
+      "byteIdentical": true
+    },
+    {
+      "path": "launcher-core.ps1",
+      "sourceSha256": "04b5a588a173d1de97285f6f11aa28b584b9cc2c75cfbe00f880969bead49529",
+      "sha256": "dac80fdfbde1627d295e1ea2e680115abcaf38f35e81b5cdf9e4dff59140bbe0",
+      "byteIdentical": false
+    },
+    {
+      "path": "manual-upgrade-core.ps1",
+      "sourceSha256": "b1d399b7383697118a4412f165b0d82aa842123476ed4d0ff220318dd5a68ada",
+      "sha256": "b1d399b7383697118a4412f165b0d82aa842123476ed4d0ff220318dd5a68ada",
+      "byteIdentical": true
+    },
+    {
+      "path": "Manual-Upgrade-Worker.ps1",
+      "sourceSha256": "df829ed75944598a40a74eeaaccc315b6d84bd96a1ffeef1f056505493c8c6e8",
+      "sha256": "df829ed75944598a40a74eeaaccc315b6d84bd96a1ffeef1f056505493c8c6e8",
+      "byteIdentical": true
+    },
+    {
+      "path": "Prepare-Background.ps1",
+      "sourceSha256": "f4e24670b78d3a79a789705d2587fa06ebce06c53ccd41633dc88327fd104226",
+      "sha256": "f4e24670b78d3a79a789705d2587fa06ebce06c53ccd41633dc88327fd104226",
+      "byteIdentical": true
+    },
+    {
+      "path": "rspack-adapter.mjs",
+      "sourceSha256": "f5871c8d30379589492a062e522ca88a8f2918e2dfe85893af0753799d7f9358",
+      "sha256": "fe9d67bed63c6c176398e37469b9b5e2458d69beac2399bb4f0d0d99d64b4833",
+      "byteIdentical": false
+    },
+    {
+      "path": "test-auto-launcher.ps1",
+      "sourceSha256": "b1d688f5ed82321d2893e77fc557c0d2c651176fd4d9842730dc581c3f643fdb",
+      "sha256": "b1d688f5ed82321d2893e77fc557c0d2c651176fd4d9842730dc581c3f643fdb",
+      "byteIdentical": true
+    },
+    {
+      "path": "Test-Fast-Startup.ps1",
+      "sourceSha256": "7f1680bc6acef186ac7f3af4d1d7631465a3a36ea3130af464b9642e435c3452",
+      "sha256": "7f1680bc6acef186ac7f3af4d1d7631465a3a36ea3130af464b9642e435c3452",
+      "byteIdentical": true
+    },
+    {
+      "path": "Test-Fixed-Version.ps1",
+      "sourceSha256": "ba6fd68429285a93cec7f58a93dc307b47ea0feb4dea1513b8b2c98c22ff0fbd",
+      "sha256": "0774594ee78aee82995814b7befcbaf03386f5a552437d6d5f05962ac4914165",
+      "byteIdentical": false
+    },
+    {
+      "path": "test-look-regression.mjs",
+      "sourceSha256": "13aa8de424c83e70e7f8909681236b59f662573416830d9fcadc251bdf6e7363",
+      "sha256": "13aa8de424c83e70e7f8909681236b59f662573416830d9fcadc251bdf6e7363",
+      "byteIdentical": true
+    },
+    {
+      "path": "Test-Manual-Upgrader.ps1",
+      "sourceSha256": "2ea177e1804c0d159cd65cb7aee729b40ebb929428840e7e8ddebcda71b7db24",
+      "sha256": "2ea177e1804c0d159cd65cb7aee729b40ebb929428840e7e8ddebcda71b7db24",
+      "byteIdentical": true
+    },
+    {
+      "path": "Test-Official-Protection.ps1",
+      "sourceSha256": "cb99472a835266d2ce789690d38ce60619bfbc020909a6ed65a23e9c9fde25e0",
+      "sha256": "7163b9b3a9eacfd90b299034c91d5ac6a290a34f2b44adb65bd3dac0ce96f2aa",
+      "byteIdentical": false
+    },
+    {
+      "path": "test-rspack-modules.mjs",
+      "sourceSha256": "b542f8c2dfd9630e7902f371f12cb7bed99d788e54f1a7b5cc5a4315c05f43a2",
+      "sha256": "b542f8c2dfd9630e7902f371f12cb7bed99d788e54f1a7b5cc5a4315c05f43a2",
+      "byteIdentical": true
+    },
+    {
+      "path": "test-working-regression.mjs",
+      "sourceSha256": "c43c09396a13e08bcfaf5a3706d27d7768d6975dc174645f81ad5aacea373009",
+      "sha256": "c43c09396a13e08bcfaf5a3706d27d7768d6975dc174645f81ad5aacea373009",
+      "byteIdentical": true
+    },
+    {
+      "path": "Yimei-Manual-Upgrade.exe",
+      "sourceSha256": "c5d878f478df9429a83ffa3282adc0aa99f2d602f0bbc3d3fe8a5a678a00d138",
+      "sha256": "c5d878f478df9429a83ffa3282adc0aa99f2d602f0bbc3d3fe8a5a678a00d138",
+      "byteIdentical": true
+    },
+    {
+      "path": "templates/Launch-Codex-Yimei16.ps1",
+      "sourceSha256": "eb8f3f588655fe80dfcb660802dfaaa0ae6a321aa552d6ac6d713dc6a930d8f6",
+      "sha256": "eb8f3f588655fe80dfcb660802dfaaa0ae6a321aa552d6ac6d713dc6a930d8f6",
+      "byteIdentical": true
+    },
+    {
+      "path": "templates/patch-new-codex.mjs",
+      "sourceSha256": "d53fd319fa9d76d4c6a7076bab0f29963ac6ac9844c2ec95d61787767d982259",
+      "sha256": "60674294517168348298f57d35fc763b6b597e704e34302ab142e4f820d19ab0",
+      "byteIdentical": false
+    },
+    {
+      "path": "templates/rspack-renderer.js",
+      "sourceSha256": "b16b652b2ada0716add08fd1676910caa2fc14c7fd4854623664599aa7705924",
+      "sha256": "b16b652b2ada0716add08fd1676910caa2fc14c7fd4854623664599aa7705924",
+      "byteIdentical": true
+    },
+    {
+      "path": "templates/test-new-behavior.mjs",
+      "sourceSha256": "ff926f6843c85d8cffd8d05c9356f35e8c9f9b65a26f2a96609873bf59539d1a",
+      "sha256": "b0c3fc3a9d79fd7640bb0ec8d129aa4adc2451352e199c6973611b3098e6a4d7",
+      "byteIdentical": false
+    },
+    {
+      "path": "templates/test-new-renderer.mjs",
+      "sourceSha256": "8a7df13767b90c08d6a17ca793675eeb4ce7574fa58fcbc9fb35765c12ddd70d",
+      "sha256": "c4f8aff14ec0554b17b5fff922cfa94820f9b825639b81f3342832068907c685",
+      "byteIdentical": false
+    },
+    {
+      "path": "templates/yimei-dense-player.js",
+      "sourceSha256": "e06e3ef845514ebb3efcff3d6ab042f11a272e939ce85a26fcadc9ce4845772b",
+      "sha256": "bf962d942a2b82fb055615dcdb01d919feb83c006773dc1963e606b33fdd2b32",
+      "byteIdentical": false
+    },
+    {
+      "path": "manual-upgrader/Program.cs",
+      "sourceSha256": "98f09dda5420ac8d015bcb0742f6ba7bb89a68fc32cd7739c877384039addf6e",
+      "sha256": "98f09dda5420ac8d015bcb0742f6ba7bb89a68fc32cd7739c877384039addf6e",
+      "byteIdentical": true
+    },
+    {
+      "path": "super-resolution/make-preview.py",
+      "sourceSha256": "4a0a6640fc022db538029ca49a59fca7e176d60d6795e948aa050e6f697d2d54",
+      "sha256": "4a0a6640fc022db538029ca49a59fca7e176d60d6795e948aa050e6f697d2d54",
+      "byteIdentical": true
+    },
+    {
+      "path": "super-resolution/Publish-20261026-SR.ps1",
+      "sourceSha256": "c2d9a6d66b1b5a52d325bb84503720cfba164926daa0caf1cdf8de8f8b0e88b8",
+      "sha256": "454f2aa375461aee964850110bbe32b43ffcdab22c740a6efdb8213cc1d755f2",
+      "byteIdentical": false
+    },
+    {
+      "path": "super-resolution/refine-details.py",
+      "sourceSha256": "d2bcfbab742ca2e1d8faeddb9f385299408eb0354c0e4e167fd10063eec46c2d",
+      "sha256": "d2bcfbab742ca2e1d8faeddb9f385299408eb0354c0e4e167fd10063eec46c2d",
+      "byteIdentical": true
+    },
+    {
+      "path": "super-resolution/upscale-yimei.py",
+      "sourceSha256": "bff3aa4640146302cf1ca9725c279751ec864d5bf26b88f5b98447bac51f9bf5",
+      "sha256": "bff3aa4640146302cf1ca9725c279751ec864d5bf26b88f5b98447bac51f9bf5",
+      "byteIdentical": true
+    },
+    {
+      "path": "super-resolution/verify-runtime-fidelity.mjs",
+      "sourceSha256": "ed6d116e5cfa5d7c78b0c4bb4112760e5643db560fc7c5c9cd4e9abecc368964",
+      "sha256": "ed6d116e5cfa5d7c78b0c4bb4112760e5643db560fc7c5c9cd4e9abecc368964",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/animation-dense.json",
+      "sourceSha256": "1dac9ee5a4673c2c8f4cf97f487205f984e34d6e4ed6ea773cc0b57cf9064440",
+      "sha256": "f17b5f763bf1a0e72edf43622f673a68848a25e33fa0fe1d6805af2881e7e129",
+      "byteIdentical": false
+    },
+    {
+      "path": "artwork/failed-hd-clarity.webp",
+      "sourceSha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8",
+      "sha256": "ed7fb7168033f62fc585d3c9bd5eaedfd8316416cc31dcd26bbb7fa5994033e8",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/idle-hd-clarity.webp",
+      "sourceSha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc",
+      "sha256": "b46cbd0dd16d74f3bbb992632bf0c03a41e9db16bec1afeb084037b74d30ccfc",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/look-10-hd-clarity.webp",
+      "sourceSha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39",
+      "sha256": "c9c6a872ff7073c5386d8840e7b11ee68fbc1780a2113531b457916284d54d39",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/look-9-hd-clarity.webp",
+      "sourceSha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e",
+      "sha256": "5fa14182b1bf0bd70c3b877f09b50072e684d63040013df929616ccaa8a9df8e",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/pet.json",
+      "sourceSha256": "9927e1185876969c100b61308ef6b8a7a20f0bee2d07e368e3ebbb426aea8c52",
+      "sha256": "e943d3b986f92be27ab202a9e2c7bd41c8cb3f830fceef8880f354874176c417",
+      "byteIdentical": false
+    },
+    {
+      "path": "artwork/review-hd-clarity.webp",
+      "sourceSha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c",
+      "sha256": "906d1b64c876bb5307c1adb6dee8bc4b1d875934eaf49636199ee758b0d3816c",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/running-hd-clarity.webp",
+      "sourceSha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385",
+      "sha256": "2dc5778c89a3187d827fa9b43a3154b2df73e50498650975c1468709c6465385",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/running-left-hd-clarity.webp",
+      "sourceSha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b",
+      "sha256": "50edcb33f4a1a0fc1fb93c7ddac335267940402bc662d5d6f609b74054ef1c2b",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/running-right-hd-hand-fixed.webp",
+      "sourceSha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9",
+      "sha256": "0ea6bc5c0a5c66eb53064622109b10e318542cfb5094a7c55dcd18adb03275c9",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/spritesheet-dense.webp",
+      "sourceSha256": "d8e7875cc72dbc430ec30698ad49a460d884820241a22ade9d187a53e1bf5ce5",
+      "sha256": "d8e7875cc72dbc430ec30698ad49a460d884820241a22ade9d187a53e1bf5ce5",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/spritesheet.webp",
+      "sourceSha256": "686f051269f080088cdac8f586855490bc5d3944bf982158202c7928ab0aa3c8",
+      "sha256": "686f051269f080088cdac8f586855490bc5d3944bf982158202c7928ab0aa3c8",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/super-resolution-report.json",
+      "sourceSha256": "e788c3f660123bac5366ff6f478b4b97ba96d72e4f522b39f62cfc272a537fc8",
+      "sha256": "d88c1c561e140f24ec714666ce650fe83523542a6be8878f85537368f75a4c78",
+      "byteIdentical": false
+    },
+    {
+      "path": "artwork/waiting-hd-clarity.webp",
+      "sourceSha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "sha256": "be4d47777ea38d5f3b114c9f674124868da6d10d71d43f90abf12f60a6f02e8f",
+      "byteIdentical": true
+    },
+    {
+      "path": "artwork/waving-hd-clarity.webp",
+      "sourceSha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61",
+      "sha256": "4f096bad14af6d6684485c6cac7d9247d1bbfc687de28c4352a27a0a516a0e61",
+      "byteIdentical": true
+    },
+    {
+      "path": "docs/MAINTENANCE-HISTORY.md",
+      "sourceSha256": "0c9080180e0b529626d6d55e2798a591ca26805a4a235370b1c6b951ff20fd82",
+      "sha256": "0c9080180e0b529626d6d55e2798a591ca26805a4a235370b1c6b951ff20fd82",
+      "byteIdentical": true
+    }
+  ]
+}
